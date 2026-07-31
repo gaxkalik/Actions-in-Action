@@ -19,7 +19,7 @@ jobs:
       - name: Push
         run:  |
           git config user.name github-actions
-          git congif user.email github-actions@github.com
+          git config user.email github-actions@github.com
           git add .
           git commit -m "Feed update [action]"
           git push
